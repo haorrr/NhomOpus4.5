@@ -272,3 +272,37 @@ p {
     width: 70px;
     margin-bottom: 0px;
 }
+
+.templatemo_right_section_content ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.templatemo_right_section_content li {
+    margin-bottom: 3px;
+}
+
+.templatemo_right_section_content li a {
+    color: #be457c;
+    padding: 0 0 0 20px;
+    text-decoration: none;
+    background: url(images/templatemo_list_icon.gif) bottom left no-repeat;
+}
+
+.templatemo_right_section_content li a:hover {
+    color: #440522;
+    text-decoration: none;
+    background: url(images/templatemo_list_icon_hover.gif) bottom left no-repeat;
+}
+
+/* end of content */
+
+/*  footer */
+
+#templatemo_footer_panel {
+    overflow: hidden;
+    width: 900px;
+    padding: 15px 20px;
+    background: #333333;
+}
