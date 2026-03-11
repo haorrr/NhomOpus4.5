@@ -163,3 +163,35 @@ p {
 }
 
 /* end of header panel */
+/* header panel */
+#templatemo_container #templatemo_banner {
+    overflow: hidden;
+    width: 880px;
+    height: 190px;
+    /* + 60 for padding top and bottom */
+    padding: 30px 30px;
+    background: #ffffff url(images/templatemo_banner_bg.jpg) top right no-repeat;
+}
+
+/* end of header panel */
+
+/* menu */
+#templatemo_menu_panel {
+    overflow: hidden;
+    width: 880px;
+    height: 40px;
+    padding: 0 30px;
+    background: #440522;
+}
+
+#templatemo_menu_panel ul {
+    float: left;
+    width: 930px;
+    margin: 0;
+    padding: 5px 0 0 0;
+    list-style: none;
+}
+
+#templatemo_menu_panel ul li {
+    display: inline;
+}
